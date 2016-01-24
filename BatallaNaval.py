@@ -1,4 +1,9 @@
+def print_tablero(tablero):
+	for i in range(len(tablero)):
+		print tablero[i]
+
 tablero = []
 for i in range(0,5):
     tablero.append(["O", "O", "O", "O", "O"])
-    print ["O"] * 5
+
+print_tablero(tablero)
