@@ -1,6 +1,6 @@
 def print_tablero(tablero):
 	for i in range(len(tablero)):
-		print tablero[i]
+		print "  ".join(tablero[i])
 
 tablero = []
 for i in range(0,5):
