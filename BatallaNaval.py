@@ -20,6 +20,7 @@ def columna_aleatoria(tablero):
 barco_fila = fila_aleatoria(tablero)
 barco_col = columna_aleatoria(tablero)
 
-print str(barco_col)
-print str(barco_fila)
+adivina_fila = int(raw_input("Adivina fila: "))
+adivina_columna = int(raw_input("Adivina columna: "))
+
 print_tablero(tablero)
