@@ -33,6 +33,8 @@ if (adivina_columna == barco_col) and (adivina_fila== barco_fila):
 	print "Felicitaciones!! HUNDICES MI BARCO :C"
 elif adivina_fila not in range(5) or adivina_columna not in range(5):
 	print "Eso ni siquiera esta en el oceano"
+elif adivina_columna=="X" and adivina_fila=="X":
+	print "Ya dijiste esas coordenadas"
 else:
 	print "Intentalo de nuevo, no tocaste mi barco"
 
