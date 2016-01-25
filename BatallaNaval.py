@@ -13,8 +13,13 @@ def print_tablero(tablero):
 
 #FUNCIONES PARA DEFINIR LA POSICION DEL BARCO DE FORMA ALEATORIA
 def fila_aleatoria(tablero):
-    barco_fila = randint(0, len(tablero)-1)
+    return randint(0, len(tablero)-1)
 def columna_aleatoria(tablero):
-    barco_col = randint(0, len(tablero)-1)
+    return randint(0, len(tablero)-1)
 
+barco_fila = fila_aleatoria(tablero)
+barco_col = columna_aleatoria(tablero)
+
+print str(barco_col)
+print str(barco_fila)
 print_tablero(tablero)
