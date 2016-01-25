@@ -31,3 +31,10 @@ adivina_columna = int(raw_input("Adivina columna: "))
 
 if (adivina_columna == barco_col) and (adivina_fila== barco_fila):
 	print "Felicitaciones!! HUNDICES MI BARCO :C"
+elif adivina_fila not in range(5) or adivina_columna not in range(5):
+	print "Eso ni siquiera esta en el oceano"
+else:
+	print "Intentalo de nuevo, no tocaste mi barco"
+
+adivina_fila = "X"
+adivina_columna = "X"
