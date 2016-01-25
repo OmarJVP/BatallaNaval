@@ -18,6 +18,8 @@ def fila_aleatoria(tablero):
 def columna_aleatoria(tablero):
     return randint(0, len(tablero)-1)
 
+print "Juguemos batalla naval"
+print "INTENTA HUNDIR MI BARCO"
 print_tablero(tablero)
 
 barco_fila = fila_aleatoria(tablero)
@@ -26,17 +28,19 @@ barco_col = columna_aleatoria(tablero)
 print barco_fila
 print barco_col
 
-adivina_fila = int(raw_input("Adivina fila: "))
-adivina_columna = int(raw_input("Adivina columna: "))
+for turno in range(5):
+	print "TURNO: " + str(turno+1)
+	adivina_fila = int(raw_input("Adivina fila: "))
+	adivina_columna = int(raw_input("Adivina columna: "))
 
-if (adivina_columna == barco_col) and (adivina_fila== barco_fila):
-	print "Felicitaciones!! HUNDICES MI BARCO :C"
-elif adivina_fila not in range(5) or adivina_columna not in range(5):
-	print "Eso ni siquiera esta en el oceano"
-elif adivina_columna=="X" and adivina_fila=="X":
-	print "Ya dijiste esas coordenadas"
-else:
-	print "Intentalo de nuevo, no tocaste mi barco"
-
-adivina_fila = "X"
-adivina_columna = "X"
+	if (adivina_columna == barco_col) and (adivina_fila== barco_fila):
+		print "Felicitaciones!! HUNDICES MI BARCO :C"
+	elif adivina_fila not in range(5) or adivina_columna not in range(5):
+		print "Eso ni siquiera esta en el oceano"
+	elif (tablero[adivina_fila][adivina_columna]=="X"):
+		print "Ya dijiste esas coordenadas"
+	else:
+		print "Intentalo de nuevo, no tocaste mi barco"
+		tablero[adivina_fila][adivina_columna] = "X"
+	turno += 1
+	print_tablero(tablero)
