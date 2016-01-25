@@ -35,6 +35,7 @@ for turno in range(5):
 
 	if (adivina_columna == barco_col) and (adivina_fila== barco_fila):
 		print "Felicitaciones!! HUNDICES MI BARCO :C"
+		break
 	elif adivina_fila not in range(5) or adivina_columna not in range(5):
 		print "Eso ni siquiera esta en el oceano"
 	elif (tablero[adivina_fila][adivina_columna]=="X"):
@@ -42,5 +43,7 @@ for turno in range(5):
 	else:
 		print "Intentalo de nuevo, no tocaste mi barco"
 		tablero[adivina_fila][adivina_columna] = "X"
-	turno += 1
 	print_tablero(tablero)
+	if turno == 4:
+		print "Fin del juego"
+
