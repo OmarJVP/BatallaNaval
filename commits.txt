@@ -1,0 +1,77 @@
+commit d524dfa0204163bd5257691e8b0ba397c18ece0d
+Author: Omar <omi.jvp@gmail.com>
+Date:   Tue Jan 26 12:07:52 2016 -0600
+
+    El usuario ya puede elegir cuantos barcos desea hundir
+
+commit e9b48269ad7e41a77a28ad711d38d78a46e22b24
+Author: Omar <omi.jvp@gmail.com>
+Date:   Mon Jan 25 15:14:17 2016 -0600
+
+    Mejoras para el usuario, ya no tiene que poner el 0, su ingreso de coordenadas es del 1-5
+
+commit 67cb8c46cfc1b43e7a73ac9d9c214ffcf766f47a
+Author: Omar <omi.jvp@gmail.com>
+Date:   Mon Jan 25 13:49:16 2016 -0600
+
+    Se agrega fin del juego y se sale del juego si el usuario gana
+
+commit 0d7151cf878b0374c6cf69c334de10fe394ec470
+Author: Omar <omi.jvp@gmail.com>
+Date:   Mon Jan 25 13:40:12 2016 -0600
+
+    Se agrego que se pueda jugar mas de una vez, con ciclo for
+
+commit 06fecf33e69b084218204a90a1743da3a0e7a028
+Author: Omar <omi.jvp@gmail.com>
+Date:   Mon Jan 25 13:03:57 2016 -0600
+
+    Se agrega un nuevo caso, si el usuario ya habia dicho las coordendas
+
+commit 9c721217abf935324ed9ed4a024fe0c0a82c1e0e
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 19:19:15 2016 -0600
+
+    Agrega condiciones si se sale del tablero
+
+commit 4105525a5786ff836ef8c79793669704b4580572
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 19:06:24 2016 -0600
+
+    Se verifica si el usuario hundio o no el barco
+
+commit be84626475b6172c55bbb2da1a1c7e34ee3d65df
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 18:27:36 2016 -0600
+
+    Pedir al usuario la fila y columna que elije
+
+commit 77886bcf102d39e5448480788ff67730f38bbf0d
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 18:22:15 2016 -0600
+
+    modifica la manera de retornar la posicion del barco
+
+commit bf5f605eefa9dc6b520c24129fa88ab0d714c5b6
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 18:14:08 2016 -0600
+
+    AGREGAR FUNCIONES PARA DEFINIR POSICION DEL BARCO ALEATORIA
+
+commit df9e5cce1f49119b5acd87d2087d9d2c094523b2
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 17:53:48 2016 -0600
+
+    Mostrar el tablero sin la forma de listas usando join
+
+commit ab7e74e0433f37d0bcd6d0f1826f2b8f6104739a
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 17:43:48 2016 -0600
+
+    Mostrar el tablero con una funcion
+
+commit 586b988179665f24eb8e1927374bbf6751e6a717
+Author: OmarJVP <omi.jvp@gmail.com>
+Date:   Sun Jan 24 17:27:36 2016 -0600
+
+    Creacion del tablero de juego 5x5
